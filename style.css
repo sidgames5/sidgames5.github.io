@@ -1,0 +1,44 @@
+ul {
+    list-style: none;
+}
+
+body {
+    background-color: #1c2e00 !important;
+}
+
+* {
+    color: white;
+    font-family: Cantarell, Ubuntu, "Trebuchet MS", Arial, sans-serif;
+}
+
+.glass {
+    background: rgba( 116, 191, 0, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 116, 191, 0, 0.37 );
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 25px;
+    width: fit-content;
+    height: fit-content;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+.header h1 {
+    margin-left: 10px;
+}
+
+.header button {
+    background: rgba( 116, 191, 0, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 116, 191, 0, 0.37 );
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 10px;
+    width: fit-content;
+    height: fit-content;
+}
