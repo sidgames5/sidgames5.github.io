@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>Sid's Blog</title>
+  <link>https://blog.thefossrant.com</link>
+  <item>
+    <title>Welcome to my blog!</title>
+    <pubDate>2024-03-10</pubDate>
+    <link>https://blog.thefossrant.com/articles/1-welcome-to-my-blog.html</link>
+    <image></image>
+    <tags></tags>
+    <summary>I've set up my blog where you can now find all my latest posts.</summary>
+    <content>
+      I now have a blog where I can post stuff to. All of these blog posts will be sent to mastodon if you would like to receive notifications when I make a post. My page is @sidgames5@mastodon.social.
+
+      I wrote this blog page entirely with HTML and CSS meaning you can disable JavaScript and still be able to read my posts. That does make it slightly more inconvenient for me to make posts, but you won't have to use JavaScript and the page will load a bit faster. Unfortunately there is no RSS feed yet.
+
+      I will make posts here whenever I do something interesting. I will also post my video tutorials here in text form for those of you who like to read.
+    </content>
+  </item>
+  <item>
+    <title>My experience with UniFi</title>
+    <pubDate>2024-03-13</pubDate>
+    <link>https://blog.thefossrant.com/articles/2-my-experience-with-unifi.html</link>
+    <image></image>
+    <tags></tags>
+    <summary>I bought a UniFi Dream Router. How does it hold up to my ISP router?</summary>
+    <content>
+      A few months ago I purchased a UniFi Dream Router after experiencing problems with my ISP-provided router. And now I can't go back. I have tried 2 different ISP routers as well as a couple "gaming" routers. The difference between your router and the UniFi Dream Router is that UniFi makes enterprise hardware. They managed to pack all of the enterprise features from their super expensive rackmount hardware into a small $200 device. You might be wondering what the difference is between a residential and enterprise router. The main thing is reliability. With the dream router, I have had zero down time not related to power outages.
+
+      The Dream Router also has the advantage of the UniFi ecosystem. By using one of the PoE ports on the Dream Router, I was able to add a UniFi Flex Mini which gives me 4 more ethernet ports without any power cables.
+
+      The dream router also provides an affordable introduction to the UniFi ecosystem for small businesses. If you don't have much money and you need quality internet, you can use the Dream Router and simply replace it for something like the Dream Machine Pro for more capacity.
+
+      I highly recommend the Dream Router for people seeking a reliable and expandable network. This is not at all sponsored, this is just from my experience. Unfortunately it has been out of stock on the UniFi website for a while but you can get it for about $300 on Amazon.
+    </content>
+  </item>
+  <item>
+    <title>I made a voice assistant</title>
+    <pubDate>2024-03-22</pubDate>
+    <link>https://blog.thefossrant.com/articles/3-i-made-a-voice-assistant.html</link>
+    <image></image>
+    <tags></tags>
+    <summary>I created my own private voice assistant using python and Ollama.</summary>
+    <content>
+      I have just released the first version of my voice assistant Excalibur! It is an alternative to voice assistants like Google and Alexa but privacy focused. You can download it on github.
+
+      The voice assistant is written completely in python. It uses Vosk for speech recognition and Ollama for AI processing. It currently has the ability to answer questions, give you the time, and give you the weather. It works by detecting words in your prompt like "weather" and "time" and gives you a result based on that. If none of the trigger words are detected, it hands off the prompt to the AI which will try its best to generate an answer.
+
+      I am working on adding smart device control and integration with other services like Spotify and Nextcloud. Hopefully this project will become good enough to take on popular privacy-invading voice assistants.
+    </content>
+  </item>
+  <item>
+    <title>RSS feeds are now available on my blog</title>
+    <pubDate>2024-08-02</pubDate>
+    <link>https://blog.thefossrant.com/articles/3-i-made-a-voice-assistant.html</link>
+    <image>I added an RSS feed to my blog site.</image>
+    <tags>rss</tags>
+    <summary>I created my own private voice assistant using python and Ollama.</summary>
+    <content>
+      I have created an RSS feed for my blog! This means you can now view my posts in your preferred RSS reader.
+
+      As of right now, I am still manually creating articles with HTML and manually adding them to the RSS feed. I am looking into solutions for this to make the process more streamlined. Stay tuned for more!
+    </content>
+  </item>
+</channel>
+
+</rss>

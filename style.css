@@ -43,3 +43,9 @@ body {
     width: fit-content;
     height: fit-content;
 }
+
+.tagcard {
+    padding: 5px;
+    background: rgba(127, 127, 127, 0.25);
+    border-radius: 10px;
+}
